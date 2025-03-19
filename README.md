@@ -54,6 +54,15 @@ go build
 
 Make sure both the servers are running independently
 
+## Fetch Points via CLI
+
+Retrieve your points using the following API endpoint:
+```bash
+https://light-node.layeredge.io/api/cli-node/points/{walletAddress}
+```
+Replace {walletAddress} with your actual CLI wallet address.
+
+
 ## Logging and Monitoring
 
 The light node provides detailed logging about its operations. You can monitor the log output to track:
